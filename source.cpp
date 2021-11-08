@@ -14,6 +14,13 @@ int main()
 	cin >> b;
 	cout << "Chon phep toan (+,-) ";
 	cin >> phepToan;
+	cout<<tong(a,b);
 	system("pause");
 	return 0;
+}
+
+int tong(int a, int b)
+{
+	int s = a + b;
+	return s;
 }
